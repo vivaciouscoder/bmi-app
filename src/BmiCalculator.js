@@ -4,6 +4,7 @@ export default function Calculator() {
   const [weight, setWeight] = useState(null);
   const [height, setHeight] = useState(null);
   const [bmi, setBmi] = useState(null);
+  const [bmiStatus, setBmiStatus] = useState(null);
 
   function updateWeight(event) {
     setWeight(event.target.value);
@@ -17,6 +18,16 @@ export default function Calculator() {
     event.preventDefault();
     let calcultedBmi = (weight / ((height / 100) * (height / 100))).toFixed(1);
     setBmi(calcultedBmi);
+    if (calcultedBmi < 18.5) {
+      setBmiStatus("(Underweight)");
+    } else if (calcultedBmi >= 18.5 && calcultedBmi <= 24.9) {
+      setBmiStatus("(Normal)");
+    } else if (calcultedBmi >= 25 && calcultedBmi <= 29.9) {
+      setBmiStatus("(Overweight)");
+    }
+    if (calcultedBmi > 30) {
+      setBmiStatus("(Obese)");
+    }
   }
 
   return (
@@ -46,7 +57,9 @@ export default function Calculator() {
           </button>
         </form>
         <br />
-        <strong>Your BMI is: {bmi}</strong>
+        <strong className="bmi">
+          Your BMI: {bmi} {bmiStatus}
+        </strong>
       </div>
     </div>
   );

@@ -63,7 +63,7 @@ root.render(
             rel="noreferrer"
             title="vida's email adress"
           >
-            <i class="fa-solid fa-envelope"></i>
+            <i className="fa-solid fa-envelope"></i>
           </a>
           <a
             href="https://github.com/vivaciouscoder"
@@ -75,21 +75,21 @@ root.render(
           </a>
 
           <a
-            href="https://www.instagram.com/blogbyviv/"
-            target="_blank"
-            rel="noreferrer"
-            title="vida's instagram adress"
-          >
-            <i className="fa-brands fa-instagram"></i>
-          </a>
-
-          <a
             href="https://www.linkedin.com/in/vahide-mousavi/"
             target="_blank"
             rel="noreferrer"
             title="vida's Linkedin adress"
           >
             <i className="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/blogbyviv/"
+            target="_blank"
+            rel="noreferrer"
+            title="vida's instagram adress"
+          >
+            <i className="fa-brands fa-instagram"></i>
           </a>
         </div>
         <p className="mt-5 mb-5 mx-4 source-code text-center">
