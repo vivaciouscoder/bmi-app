@@ -41,7 +41,7 @@ root.render(
         <div className="contact-box d-none d-md-block">
           <div className="row">
             <div className="col-9">
-              <h6 className="text-start">Work Inquiry</h6>
+              <h6 className="text-start mt-3">Work Inquiry</h6>
               <p className="text-muted text-start">Let's work together</p>
             </div>
 
@@ -95,7 +95,7 @@ root.render(
         <p className="mt-5 mb-5 mx-4 source-code text-center">
           This website was coded by Vida Mousavi, and is
           <a
-            href="https://github.com/vivaciouscoder/portfolio-project"
+            href="https://github.com/vivaciouscoder/bmi-app"
             target="_blank"
             rel="noreferrer"
           >

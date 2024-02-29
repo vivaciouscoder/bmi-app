@@ -1,6 +1,6 @@
 import React from "react";
 import "./BmiApp.css";
-
+import Calculator from "./BmiCalculator";
 export default function BmiApp() {
   return (
     <div className="BmiApp">
@@ -29,23 +29,7 @@ export default function BmiApp() {
               />
             </div>
             <div className="col-4 calculator">
-              <div className="card">
-                <h6 className="text-center">BMI Calculator</h6>
-                <form>
-                  <div className="mb-3">
-                    <label className="form-label weight">Weight (kg)</label>
-                    <input type="number" className="form-control" />
-                  </div>
-                  <div className="mb-3">
-                    <label className="form-label height">Height (cm)</label>
-                    <input type="number" className="form-control" />
-                  </div>
-
-                  <button type="submit" className="btn btn-branding">
-                    Calculate
-                  </button>
-                </form>
-              </div>
+              <Calculator />
             </div>
           </div>
         </div>
