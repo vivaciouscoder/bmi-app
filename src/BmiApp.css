@@ -1,0 +1,143 @@
+body {
+  background-color: var(--default-color);
+  font-family: var(--branding-font);
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+
+  padding: 20px;
+}
+
+:root {
+  --default-color: #f3fbfb;
+  --branding-color: #2aaaa2;
+  --third-color: #f6a818;
+  --branding-font: "Open Sans", sans-serif;
+}
+
+nav a {
+  color: var(--branding-color);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav li {
+  list-style: none;
+  padding-left: 20px;
+}
+
+nav li a {
+  color: #272142;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+li a.active,
+nav li a:hover {
+  color: var(--branding-color);
+}
+h1 {
+  color: var(--branding-color);
+  font-weight: 800;
+}
+
+div .BmiApp {
+  margin-bottom: 200px;
+  margin-top: 0;
+}
+
+p.app-description {
+  padding: 0 120px 0 0;
+}
+.calculator {
+  background-color: #bfe3df;
+  padding-top: 50px;
+}
+
+.btn-branding {
+  background-color: var(--branding-color);
+  color: white;
+  font-weight: bold;
+}
+
+.btn-branding:hover {
+  background-color: var(--branding-color);
+}
+
+footer .contact-box {
+  background-color: #bfe3df;
+  padding: 10px 80px;
+  border-radius: 15px;
+  margin: 20px 80px;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+footer p.source-code {
+  color: gray;
+  font-size: 12px;
+}
+
+footer h6 {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+footer .contact-icons {
+  margin-top: 0;
+
+  font-size: 18px;
+  text-align: center;
+}
+
+.contact-icons i {
+  padding: 10px;
+}
+
+a {
+  color: var(--branding-color);
+}
+
+a:hover {
+  color: #212529;
+}
+
+a i {
+  color: var(--branding-color);
+}
+
+a i:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+
+i {
+  background-color: var(--secondary-color);
+  border-radius: 100px;
+  margin: 20px;
+}
+
+.email-link {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.email-link:hover {
+  color: var(--branding-color);
+}
