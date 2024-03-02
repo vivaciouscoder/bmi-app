@@ -157,6 +157,10 @@ i {
     margin-right: -120px;
   }
 
+  div.row {
+    margin: 0;
+  }
+
   .calculator {
     padding: 0;
     margin-left: -200px;
