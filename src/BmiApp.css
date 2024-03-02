@@ -22,29 +22,31 @@ body {
   --third-color: #f6a818;
   --branding-font: "Open Sans", sans-serif;
 }
+nav {
+  margin: 10px 40px;
+}
 
-nav a {
+.navbar-expand-lg .navbar-collapse {
+  justify-content: end;
+}
+nav .navbar-brand {
   color: var(--branding-color);
-  font-weight: bold;
-  text-decoration: none;
-}
-
-nav li {
-  list-style: none;
-  padding-left: 20px;
-}
-
-nav li a {
-  color: #272142;
-  text-decoration: none;
   font-size: 16px;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--branding-color);
+}
+
+nav a.nav-link {
+  color: black;
   font-weight: 500;
 }
-
-li a.active,
-nav li a:hover {
+nav a.nav-link:hover {
   color: var(--branding-color);
 }
+
 h1 {
   color: var(--branding-color);
   font-weight: 800;
@@ -141,4 +143,23 @@ i {
 
 .email-link:hover {
   color: var(--branding-color);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  p.app-description {
+    padding: 0;
+    text-align: justify;
+    margin-right: -120px;
+  }
+
+  .calculator {
+    padding: 0;
+    margin-left: -200px;
+    margin-top: 10px;
+  }
 }

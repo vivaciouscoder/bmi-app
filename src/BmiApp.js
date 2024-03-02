@@ -17,14 +17,13 @@ export default function BmiApp() {
               advice on what to do next.
             </p>
           </div>
-          <div className="col-4"></div>
 
           <div className="row mt-2">
             <div className="col-8">
               <img
                 src="https://images.everydayhealth.com/images/diet-nutrition/adult-body-mass-index-guide-alt-1440x810.jpg?sfvrsn=5d905d91_2"
                 alt="body mass index range"
-                className="bmi-range"
+                className="bmi-range img-fluid d-none d-md-block"
                 width={700}
               />
             </div>
